@@ -8,8 +8,13 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    <header>header</header>
-    <main>main</main>
+    <header>
+
+        @include('layouts.partials._navbar')
+
+
+    </header>
+    <main>@yield('main-content')</main>
     <footer>footer</footer>
 </body>
 </html>
