@@ -14,7 +14,11 @@
 
 
     </header>
-    <main>@yield('main-content')</main>
+    <main>
+    <div class="container">
+        @yield('main-content')
+    </div>
+    </main>
     <footer>footer</footer>
 </body>
 </html>

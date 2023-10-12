@@ -19,7 +19,10 @@ Route::get('/', function () {
 
 
 Route::get('/products', function () {
-    return view('layouts.productlist');
+
+    $comics = config('comics');
+
+    return view('layouts.productlist', compact('comics'));
 })->name('products');
 
 
