@@ -15,10 +15,10 @@
 
     </header>
     <main>
-    <div class="container">
+    <div>
         @yield('main-content')
     </div>
     </main>
-    <footer>footer</footer>
+    <footer> @include('layouts.partials._footer')</footer>
 </body>
 </html>

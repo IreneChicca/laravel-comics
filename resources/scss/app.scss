@@ -1,1 +1,36 @@
 @import "~bootstrap/scss/bootstrap";
+
+img {
+    max-width: 100%;
+}
+
+#logo img {
+    width: 50px;
+}
+
+main {
+    background-color: rgba(17, 76, 110, 0.267);
+}
+
+h1 {
+    color: #0f7eed;
+    text-align: center;
+}
+
+.active {
+    color: #0f7eed !important;
+    font-weight: 600 !important;
+}
+
+#footer {
+    background-color: rgba(17, 76, 110, 0.267);
+}
+
+ul li {
+    list-style-type: none;
+    color: #0f7eed;
+
+    &:hover {
+        font-weight: 600 !important;
+    }
+}
